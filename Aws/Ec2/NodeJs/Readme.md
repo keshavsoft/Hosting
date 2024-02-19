@@ -8,3 +8,8 @@ steps random :
 
 sudo vim /etc/systemd/system/myapp.service
 
+https://caddyserver.com/docs/install
+
+https://caddyserver.com
+
+sudo vim /etc/caddy/Caddyfile
