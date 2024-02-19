@@ -1,0 +1,16 @@
+[Unit]
+Description=app.js - making your environment variables rad
+After=network.target
+
+[Service]
+EnvironmentFile=/etc/myapp.env
+WorkingDirectory=/home/ubuntu/KeshavSoft/crudGenFBDAll
+Environment=NODE_ENV=production
+Type=simple
+User=ubuntu
+ExecStart=/usr/bin/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+~                              
