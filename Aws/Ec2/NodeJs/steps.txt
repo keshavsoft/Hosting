@@ -1,0 +1,24 @@
+youtube link :
+
+https://www.youtube.com/watch?v=nQdyiK7-VlQ&t=1185s
+
+https://www.sammeechward.com/deploying-full-stack-js-to-aws-ec2
+
+steps random :
+
+sudo vim /etc/systemd/system/myapp.service
+
+https://caddyserver.com/docs/install
+
+https://caddyserver.com
+
+sudo vim /etc/caddy/Caddyfile
+
+1.  go to domain provider and create a record
+
+   Host Name : sub domain name
+    Type : A
+    Data  : ip address of the hosting service provider
+
+
+2.   scp -i KSAwsKeyPair.pem d:/Masters.zip ubuntu@ec2-13-234-217-62.ap-south-1.compute.amazonaws.com:~/.
