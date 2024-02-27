@@ -1,0 +1,15 @@
+[Unit]
+Description=app.js - making your environment variables rad
+After=network.target
+
+[Service]
+WorkingDirectory=/root/KeshavSoft/washtex27
+Environment=NODE_ENV=production
+Type=simple
+User=root
+ExecStart=/usr/bin/npm start
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+~                              
