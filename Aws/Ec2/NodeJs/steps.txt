@@ -22,3 +22,8 @@ sudo vim /etc/caddy/Caddyfile
 
 
 2.   scp -i KSAwsKeyPair.pem d:/Masters.zip ubuntu@ec2-13-234-217-62.ap-south-1.compute.amazonaws.com:~/.
+
+
+https://www.geeksforgeeks.org/scp-command-in-linux-with-examples/
+
+scp -r to repeatedly copy all folders from source to destination
